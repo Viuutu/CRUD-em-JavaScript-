@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #121212;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 8px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  input {
+    background: #2a2a2a;
+    color: #fff;
+  }
+  
+  button {
+    background: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background: #45a049;
+  }
+  
+  .user {
+    background: #2a2a2a;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+  }
+  
+  .user p {
+    margin: 5px 0;
+  }
+  
+  .actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .actions button {
+    flex: 1;
+    background: #ff5722;
+  }
+  
+  .actions .edit {
+    background: #2196f3;
+  }
+  
